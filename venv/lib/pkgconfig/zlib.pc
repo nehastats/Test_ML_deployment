@@ -1,0 +1,13 @@
+prefix=/Users/jn/Neha/Learning/Test/bostonhousepricing/venv
+exec_prefix=/Users/jn/Neha/Learning/Test/bostonhousepricing/venv
+libdir=/Users/jn/Neha/Learning/Test/bostonhousepricing/venv/lib
+sharedlibdir=/Users/jn/Neha/Learning/Test/bostonhousepricing/venv/lib
+includedir=/Users/jn/Neha/Learning/Test/bostonhousepricing/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
